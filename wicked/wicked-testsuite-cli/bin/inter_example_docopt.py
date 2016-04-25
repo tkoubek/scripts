@@ -81,6 +81,7 @@ Options:
 opt = docopt(__doc__, sys.argv[1:])
 
 if opt['--interactive']:
-    MyInteractive().cmdloop()
+    #MyInteractive().cmdloop()
+    print("boludo")
 
 print(opt)
