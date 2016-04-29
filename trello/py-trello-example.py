@@ -7,6 +7,8 @@ import urlparse
 import os
 
 
+from trello import TrelloClient
+
 # https://github.com/sarumont/py-trello
 ###################### trello config ######################
 # 1.  login to trello
@@ -226,9 +228,10 @@ class TrelloManager:
 
 
     #get_oauth_token_and_secret("", api_key=api_key, api_secret=api_secret, token_expiration='never')
-    from trello import TrelloClient
 
-    trello.client=TrelloClient(api_key=api_key,
+
+
+    client = TrelloClient(api_key=api_key,
                         api_secret=api_secret,
                         token=oauth_token,
                         token_secret=oauth_token_secret)
