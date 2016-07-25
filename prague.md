@@ -20,7 +20,7 @@
 ### Storage servers
 | Node     | IP             | IPMI Mac adress   |
 |----------|----------------|-------------------|
-| callisto | 10.100.103.222 | 0c:c4:7a:7c:de:f1 |
+| callisto | 10.100.103.222 | 0c:c4:7a:7c:DE:f1 |
 | artemis  | 10.100.103.223 | 0c:c4:7a:7c:df:28 |
 | poseidon | 10.100.103.224 | 0c:c4:7a:7d:ed:72 |
 | hera     | 10.100.103.225 | 0C:C4:7A:7C:DF:05 |
