@@ -20,9 +20,9 @@
 ### Storage servers
 | Node     | IP             | IPMI Mac adress   |
 |----------|----------------|-------------------|
-| callisto | 10.100.103.222 | 0c:c4:7a:7c:de:f1 |
-| artemis  | 10.100.103.223 | 0c:c4:7a:7c:df:28 |
-| poseidon | 10.100.103.224 | 0c:c4:7a:7d:ed:72 |
+| callisto | 10.100.103.222 | 0C:C4:7A:7C:DE:F1 |
+| artemis  | 10.100.103.223 | 0C:C4:7A:7c:df:28 |
+| poseidon | 10.100.103.224 | 0C:C4:7A:7d:ed:72 |
 | hera     | 10.100.103.225 | 0C:C4:7A:7C:DF:05 |
 | apollo   | 10.100.103.238 | 0C:C4:7A:7D:ED:B3 |
 | ares     | 10.100.103.239 | 0C:C4:7A:7C:DF:19 |
@@ -34,30 +34,30 @@
 
 | Host     | FQDN hostname                | Mac address       | VLANs                     |
 |----------|------------------------------|-------------------|---------------------------|
-| zeus     | zeus.qa.suse.cz              | 0c:c4:7a:7c:e2:ea | 12(Untagged)              |
-|          |                              | 0c:c4:7a:7c:e2:eb | 742(Untagged)             |
-| themisto | 0c-c4-7a-aa-27-2c.qa.suse.cz | 0c:c4:7a:aa:27:2c | 742(Untagged),743,744,745 |
-| thebe    | 0c-c4-7a-aa-45-dc.qa.suse.cz | 0c:c4:7a:aa:45:dc | 742(Untagged),743,744,745 |
-| europa   | 0c-c4-7a-aa-d4-b0.qa.suse.cz | 0c:c4:7a:aa:d4:b0 | 742(Untagged),743,744,745 |
-| erlara   | 0c-c4-7a-6c-40-e2.qa.suse.cz | 0c:c4:7a:6c:40:e2 | 742(Untagged),743,744,745 |
-| carpo    | 0c-c4-7a-aa-45-82.qa.suse.cz | 0c:c4:7a:aa:45:82 | 742(Untagged),743,744,745 |
-| hersi    | 0c-c4-7a-aa-d1-b4.qa.suse.cz | 0c:c4:7a:aa:45:82 | 742(Untagged),743,744,745 |
-| sponde   | 0c-c4-7a-aa-47-64.qa.suse.cz | 0c:c4:7a:aa:47:64 | 742(Untagged),743,744,745 |
-| kronos   | 0c-c4-7a-6c-40-e4.qa.suse.cz | 0c:c4:7a:6c:40:e4 | 742(Untagged),743,744,745 |
-| leto     | 0c-c4-7a-aa-43-80.qa.suse.cz | 0c:c4:7a:aa:43:80 | 742(Untagged),743,744,745 |
+| zeus     | zeus.qa.suse.cz              | 0C:C4:7A:7C:E2:EA | 12(Untagged)              |
+|          |                              | 0C:C4:7A:7C:E2:EB | 742(Untagged)             |
+| themisto | 0c-c4-7a-aa-27-2c.qa.suse.cz | 0C:C4:7A:AA:27:2C | 742(Untagged),743,744,745 |
+| thebe    | 0c-c4-7a-aa-45-dc.qa.suse.cz | 0C:C4:7A:AA:45:DC | 742(Untagged),743,744,745 |
+| europa   | 0c-c4-7a-aa-d4-b0.qa.suse.cz | 0C:C4:7A:AA:D4:B0 | 742(Untagged),743,744,745 |
+| erlara   | 0c-c4-7a-6c-40-e2.qa.suse.cz | 0C:C4:7A:6C:40:E2 | 742(Untagged),743,744,745 |
+| carpo    | 0c-c4-7a-aa-45-82.qa.suse.cz | 0C:C4:7A:AA:45:82 | 742(Untagged),743,744,745 |
+| hersi    | 0c-c4-7a-aa-d1-b4.qa.suse.cz | 0C:C4:7A:AA:45:82 | 742(Untagged),743,744,745 |
+| sponde   | 0c-c4-7a-aa-47-64.qa.suse.cz | 0C:C4:7A:AA:47:64 | 742(Untagged),743,744,745 |
+| kronos   | 0c-c4-7a-6c-40-e4.qa.suse.cz | 0C:C4:7A:6C:40:E4 | 742(Untagged),743,744,745 |
+| leto     | 0c-c4-7a-aa-43-80.qa.suse.cz | 0C:C4:7A:AA:43:80 | 742(Untagged),743,744,745 |
 
 ## Storage server nodes
 
 | Host     | FQDN hostname                | Mac address       | VLANs             |
 |----------|------------------------------|-------------------|-------------------|
-| apollo   | 0c-c4-7a-7d-f0-4c.qa.suse.cz | 0c:c4:7a:aa:43:80 | 742(Untagged),744 |
-| poseidon | 0c-c4-7a-7d-ef-cb.qa.suse.cz | 0c-c4-7a-7d-ef-cb | 742(Untagged),744 |
-| ares     | 0c-c4-7a-7c-e2-c8.qa.suse.cz | 0c-c4-7a-7c-e2-c8 | 742(Untagged),744 |
-| artemis  | 0c-c4-7a-7c-e2-e6.qa.suse.cz | 0c-c4-7a-7c-e2-c8 | 742(Untagged),744 |
-| demeter  | 0c-c4-7a-7c-e2-aa.qa.suse.cz | 0c-c4-7a-7c-e2-aa | 742(Untagged),744 |
-| hera     | 0c-c4-7a-7c-e2-a0.qa.suse.cz | 0c-c4-7a-7c-e2-a0 | 742(Untagged),744 |
-| maia     | 0c-c4-7a-7c-e2-ac.qa.suse.cz | 0c-c4-7a-7c-e2-ac | 742(Untagged),744 |
-| callisto | 0c-c4-7a-7c-e2-78.qa.suse.cz | 0c-c4-7a-7c-e2-78 | 742(Untagged),744 |
+| apollo   | 0c-c4-7a-7d-f0-4c.qa.suse.cz | 0C:C4:7A:AA:43:80 | 742(Untagged),744 |
+| poseidon | 0c-c4-7a-7d-ef-cb.qa.suse.cz | 0C-C4-7A-7D-EF-CB | 742(Untagged),744 |
+| ares     | 0c-c4-7a-7c-e2-c8.qa.suse.cz | 0C-C4-7A-7C-E2-C8 | 742(Untagged),744 |
+| artemis  | 0c-c4-7a-7c-e2-e6.qa.suse.cz | 0C-C4-7A-7C-E2-C8 | 742(Untagged),744 |
+| demeter  | 0c-c4-7a-7c-e2-aa.qa.suse.cz | 0C-C4-7A-7C-E2-AA | 742(Untagged),744 |
+| hera     | 0c-c4-7a-7c-e2-a0.qa.suse.cz | 0C-C4-7A-7C-E2-A0 | 742(Untagged),744 |
+| maia     | 0c-c4-7a-7c-e2-ac.qa.suse.cz | 0C-C4-7A-7C-E2-AC | 742(Untagged),744 |
+| callisto | 0c-c4-7a-7c-e2-78.qa.suse.cz | 0C-C4-7A-7C-e2-78 | 742(Untagged),744 |
 
 
 
