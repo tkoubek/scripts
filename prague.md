@@ -1,5 +1,33 @@
 # Prague QA cloud infrastructure
 
+## IPMI access
+
+|                  Cloud nodes                  |
+|----------|----------------|-------------------|
+| Node     | IP             | IPMI Mac adress   |
+| kronos   | 10.100.103.197 | 0C:C4:7A:6E:68:81 |
+| leto     | 10.100.103.213 | 0C:C4:7A:AE:7E:02 |
+| thebe    | 10.100.103.201 | 0C:C4:7A:AE:7C:9F |
+| europa   | 10.100.103.202 | 0C:C4:7A:AE:C6:6A |
+| erlara   | 10.100.103.196 | 0C:C4:7A:6E:68:82 |
+| carpo    | 10.100.103.200 | 0C:C4:7A:AE:7E:AB |
+| hersi    | 10.100.103.203 | 0C:C4:7A:AE:CA:4A |
+| sponde   | 10.100.103.247 | 0C:C4:7A:AE:77:2E |
+| zeus     | 10.100.103.167 | 0C:C4:7A:7C:DF:2A |
+| themisto | 10.100.103.199 | 0C:C4:7A:AE:7D:D2 |
+
+|                 Storage nodes                 |
+|----------|----------------|-------------------|
+| Node     | IP             | IPMI Mac adress   |
+| callisto | 10.100.103.222 | 0c:c4:7a:7c:de:f1 |
+| artemis  | 10.100.103.223 | 0c:c4:7a:7c:df:28 |
+| poseidon | 10.100.103.224 | 0c:c4:7a:7d:ed:72 |
+| hera     | 10.100.103.225 | 0C:C4:7A:7C:DF:05 |
+| apollo   | 10.100.103.238 | 0C:C4:7A:7D:ED:B3 |
+| ares     | 10.100.103.239 | 0C:C4:7A:7C:DF:19 |
+| maia     | 10.100.103.240 | 0C:C4:7A:7C:DF:0B |
+| demeter  | 10.100.103.241 | 0C:C4:7A:7C:DF:0A |
+
 ## Hardware
 
 ### Cloud
@@ -30,35 +58,7 @@
 | maia     | Intel Single-CPU RI1212  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
 | callisto | Intel Single-CPU RI1213  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
 
-###
 
-## IPMI access
-
-|                  Cloud nodes                  |
-|----------|----------------|-------------------|
-| Node     | IP             | IPMI Mac adress   |
-| kronos   | 10.100.103.197 | 0C:C4:7A:6E:68:81 |
-| leto     | 10.100.103.213 | 0C:C4:7A:AE:7E:02 |
-| thebe    | 10.100.103.201 | 0C:C4:7A:AE:7C:9F |
-| europa   | 10.100.103.202 | 0C:C4:7A:AE:C6:6A |
-| erlara   | 10.100.103.196 | 0C:C4:7A:6E:68:82 |
-| carpo    | 10.100.103.200 | 0C:C4:7A:AE:7E:AB |
-| hersi    | 10.100.103.203 | 0C:C4:7A:AE:CA:4A |
-| sponde   | 10.100.103.247 | 0C:C4:7A:AE:77:2E |
-| zeus     | 10.100.103.167 | 0C:C4:7A:7C:DF:2A |
-| themisto | 10.100.103.199 | 0C:C4:7A:AE:7D:D2 |
-
-|                 Storage nodes                 |
-|----------|----------------|-------------------|
-| Node     | IP             | IPMI Mac adress   |
-| callisto | 10.100.103.222 | 0c:c4:7a:7c:de:f1 |
-| artemis  | 10.100.103.223 | 0c:c4:7a:7c:df:28 |
-| poseidon | 10.100.103.224 | 0c:c4:7a:7d:ed:72 |
-| hera     | 10.100.103.225 | 0C:C4:7A:7C:DF:05 |
-| apollo   | 10.100.103.238 | 0C:C4:7A:7D:ED:B3 |
-| ares     | 10.100.103.239 | 0C:C4:7A:7C:DF:19 |
-| maia     | 10.100.103.240 | 0C:C4:7A:7C:DF:0B |
-| demeter  | 10.100.103.241 | 0C:C4:7A:7C:DF:0A |
 
 ## Cloud server nodes
 
