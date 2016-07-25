@@ -2,9 +2,8 @@
 
 #sudo apt-get install -qqy ethtool libgraph-easy-perl graphviz > /dev/null
 export PERL_MM_USE_DEFAULT=1
-perl -MCPAN -e 'Graph::Easy'
-zypper in ethtool libgraph-easy-perl graphviz
-
+perl -MCPAN -e 'install Graph::Easy'
+zypper --non-interactive --no-gpg-checks --quiet install --auto-agree-with-licenses ethtool graphviz openvswitch-switch
 
 
 

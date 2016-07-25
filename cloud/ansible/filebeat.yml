@@ -1,0 +1,13 @@
+# Install "filebeat"
+- hosts: compute
+  tasks:
+   - name: Install filebeat
+   - zypper: name=https://download.elastic.co/beats/filebeat/filebeat-1.2.3-x86_64.rpm state=present
+   notify:
+   - Start filebeat
+
+handlers:
+   - name: Start filebeat
+     service: name=filebeat state=started
+
+

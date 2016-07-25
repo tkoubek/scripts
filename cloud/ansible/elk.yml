@@ -1,0 +1,18 @@
+# Install "filebeat"
+- hosts: admin
+  tasks:
+#   - name: Install filebeat
+   - zypper: name=https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/rpm/elasticsearch/2.3.4/elasticsearch-2.3.4.rpm state=present
+   - zypper: name=https://download.elastic.co/logstash/logstash/packages/centos/logstash-2.3.4-1.noarch.rpm state=present
+   - zypper: name=https://download.elastic.co/kibana/kibana/kibana-4.5.2-1.x86_64.rpm state=present
+
+#   notify:
+#   - Start filebeat
+
+handlers:
+#   - name: Start filebeat
+     service: name=elasticsearch state=started
+     service: name=logstash state=started
+     service: name=kibana state=started
+
+
