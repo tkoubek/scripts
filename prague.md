@@ -59,7 +59,6 @@
 | callisto | Intel Single-CPU RI1213  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
 
 
-
 ## Cloud server nodes
 
 | Host     | FQDN hostname                | Mac address       | VLANs                     |
