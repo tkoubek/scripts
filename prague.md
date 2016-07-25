@@ -33,8 +33,6 @@
 
 ## IPMI access
 
-
-
 |                  Cloud nodes                  |
 |----------|----------------|-------------------|
 | Node     | IP             | IPMI Mac adress   |
