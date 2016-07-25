@@ -2,9 +2,10 @@
 
 ## IPMI access
 
-|                  Cloud nodes                  |
-|----------|----------------|-------------------|
+
+### Cloud servers
 | Node     | IP             | IPMI Mac adress   |
+|----------|----------------|-------------------|
 | kronos   | 10.100.103.197 | 0C:C4:7A:6E:68:81 |
 | leto     | 10.100.103.213 | 0C:C4:7A:AE:7E:02 |
 | thebe    | 10.100.103.201 | 0C:C4:7A:AE:7C:9F |
@@ -16,9 +17,9 @@
 | zeus     | 10.100.103.167 | 0C:C4:7A:7C:DF:2A |
 | themisto | 10.100.103.199 | 0C:C4:7A:AE:7D:D2 |
 
-|                 Storage nodes                 |
-|----------|----------------|-------------------|
+### Storage servers
 | Node     | IP             | IPMI Mac adress   |
+|----------|----------------|-------------------|
 | callisto | 10.100.103.222 | 0c:c4:7a:7c:de:f1 |
 | artemis  | 10.100.103.223 | 0c:c4:7a:7c:df:28 |
 | poseidon | 10.100.103.224 | 0c:c4:7a:7d:ed:72 |
@@ -27,36 +28,6 @@
 | ares     | 10.100.103.239 | 0C:C4:7A:7C:DF:19 |
 | maia     | 10.100.103.240 | 0C:C4:7A:7C:DF:0B |
 | demeter  | 10.100.103.241 | 0C:C4:7A:7C:DF:0A |
-
-## Hardware
-
-### Cloud
-
-| Host     | Server                   | Size | CPUs         | RAM       | Hard drives                 |
-|----------|--------------------------|------|--------------|-----------|-----------------------------|
-| zeus     | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM  | 2x 240GB SSD                |
-| themisto | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
-| thebe    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
-| europa   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
-| erlara   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-| carpo    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-| hersi    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-| sponde   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-| kronos   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-| leto     | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
-
-### Storage
-
-| Host     | Server                   | Size | CPUs         | RAM      | Hard Drives            |
-|----------|--------------------------|------|--------------|----------|------------------------|
-| apollo   | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM | 2x 240GB SSD           |
-| poseidon | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM | 2x 240GB SSD           |
-| ares     | Intel Single-CPU RI1208  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
-| artemis  | Intel Single-CPU RI1209  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
-| demeter  | Intel Single-CPU RI1210  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
-| hera     | Intel Single-CPU RI1211  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
-| maia     | Intel Single-CPU RI1212  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
-| callisto | Intel Single-CPU RI1213  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
 
 
 ## Cloud server nodes
@@ -170,3 +141,33 @@
 | 12      | Prague QA Network | Untagged |
 | 738     | Admin Network     | Untagged |
 | 740     | Storage Network   | Tagged   |
+
+## Hardware
+
+### Cloud
+
+| Host     | Server                   | Size | CPUs         | RAM       | Hard drives                 |
+|----------|--------------------------|------|--------------|-----------|-----------------------------|
+| zeus     | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM  | 2x 240GB SSD                |
+| themisto | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
+| thebe    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
+| europa   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 64GB RAM  | 2x 240GB SSD                |
+| erlara   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+| carpo    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+| hersi    | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+| sponde   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+| kronos   | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+| leto     | Intel Dual-CPU RI2104H   | 1U   | 2x Octa-Core | 128GB RAM | 1x 240GB SSD + 2x 960GB SSD |
+
+### Storage
+
+| Host     | Server                   | Size | CPUs         | RAM      | Hard Drives            |
+|----------|--------------------------|------|--------------|----------|------------------------|
+| apollo   | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM | 2x 240GB SSD           |
+| poseidon | Intel Single-CPU RI1104H | 1U   | 1x Quad-Core | 32GB RAM | 2x 240GB SSD           |
+| ares     | Intel Single-CPU RI1208  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
+| artemis  | Intel Single-CPU RI1209  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
+| demeter  | Intel Single-CPU RI1210  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
+| hera     | Intel Single-CPU RI1211  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
+| maia     | Intel Single-CPU RI1212  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
+| callisto | Intel Single-CPU RI1213  | 2U   | 1x Quad-Core | 16GB RAM | 240GB SSD + 5x 2TB HDD |
